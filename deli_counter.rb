@@ -30,7 +30,7 @@ def take_a_number(katz_deli, customer)
   katz_deli.append(customer)
   i = 0
   totalpersons = katz_deli.count
-  loop do
+  
     if i < totalpersons
       i = i + 1
       if katz_deli[i] == customer
